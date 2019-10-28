@@ -12,7 +12,7 @@ desc 'outputs hello to the terminal'
   task :hola do
     puts "hola de Rake!"
   end
-  
+end  
  
   
   namespace :db do
@@ -20,4 +20,3 @@ desc 'outputs hello to the terminal'
   task :migrate => :environment do
     Student.create_table
   end
-end
